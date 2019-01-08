@@ -1,0 +1,155 @@
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+  padding: 50px;
+  grid-auto-rows: minmax(150px, auto);
+}
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  background-color: white;
+  border:2px solid black;
+}
+
+.two { 
+  grid-column: 2 / 6;
+  grid-row: 1;
+  background-color: white;
+  border:2px solid black;
+}
+
+.three {
+  grid-column: 1;
+  grid-row: 2 / 8;
+  background-color: white;
+  border:2px solid black;
+}
+
+.four {
+  grid-column: 2/4;
+  grid-row: 2/5;
+  background-color: white;
+  border:2px solid black;
+}
+
+.five {
+  grid-column: 4/6;
+  grid-row: 2/4;
+  background-color: white;
+  border:2px solid black;
+}
+
+.six {
+  grid-column: 2/4;
+  grid-row: 5/8;
+  background-color: white;
+  border:2px solid black;
+}
+
+.seven {
+  grid-column: 4/6;
+  grid-row: 4/8;
+  background-color: white;
+  padding-top:80px;
+  border:2px solid black;
+}
+
+.height {
+  grid-column: 1/6;
+  grid-row: 8;
+  background-color: white;
+  border:2px solid black;
+}
+
+
+
+
+p{
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  text-align: center;
+  padding: 10px;
+  font-size: 2.4em;
+  color: black;
+  font-weight: medium;
+}
+h1{
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  color: black;
+}
+
+h3{
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  text-align: left;
+  padding: 20px;
+  font-size: 2em;
+  color: black;
+}
+
+h4{
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  text-align: left;
+  padding: 20px;
+  font-size: 1.3em;
+  color: black;
+}
+h5{
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  text-align: center;
+  word-break: break-all;
+  vertical-align: top;
+  padding: 50px;
+  margin-top: -10px;
+    margin-bottom: -30px;
+  font-size: 8em;
+  color: black;
+}
+  
+
+h6{
+  margin-bottom:-5px;
+  margin-top:0px;
+  padding: 20px;
+  text-align: left;
+  font-weight: 700;
+  font-family: helvetica;
+  font-size: 12px;
+  color: #FF1053;
+}
+a{
+  color:black; 
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+#previous{
+    font-family: 'Varela Round', sans-serif;
+  color:#e89c9e;
+  font-size: 2em;
+  transform: rotate(90deg);
+  width: 20px;
+  text-align: right;
+  position: fixed;
+  left: 20px;
+  top:20px;
+}
+
+#suite{
+  font-family: 'Varela Round', sans-serif;
+  color:#e89c9e;
+  font-size: 2em;
+  transform: rotate(-90deg);
+  width: 20px;
+  text-align: right;
+  position: fixed;
+  right: 20px;
+  top:20px;
+}
+
+

@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'resistanceregular';
+    src: url('font/resistance_generale-webfont.eot');
+    src: url('font/resistance_generale-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/resistance_generale-webfont.woff2') format('woff2'),
+         url('font/resistance_generale-webfont.woff') format('woff'),
+         url('font/resistance_generale-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+#conteneur{
+	width: 960px;
+	height: 600px;
+	margin: 100px auto;
+	border: 3px solid black;
+
+}
+
+header{
+	width: 960px;
+	height: 150px;
+	border-bottom: 3px solid black;
+}
+
+#logo{
+	width: 100px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 20px;
+	display: inline-block;
+	border: 3px solid black;
+		vertical-align:top;
+}
+
+#logo:hover{
+background-color: yellow;
+}
+
+img{
+		width: 100px;
+	height: 100px;
+}
+
+h1{
+    font-family: 'resistanceregular';
+	display: inline-block;
+	vertical-align:top;
+	font-size: 3.78em;
+	margin-left: 25px;
+	margin-top: 40px;
+	width: 500px;
+
+}
+
+ul{
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+
+}
+
+li{
+	display: inline-block;
+	width: 50px;
+	height: 20px; 
+	margin-right: 20px;
+	border: 3px solid black;
+
+}
+
+
+li:hover{
+background-color: black;
+
+}
+
+
+
+section{
+	height: 400px;
+}
+
+article{
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 300px;
+	height: 300px;
+	border: 3px solid black;
+}
+
+aside{
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 510px;
+	height: 300px;
+	border: 3px solid black;	
+}
+
+footer{
+	width: 960px;
+	height: 50px;
+	border-top: 3px solid black;	
+
+}
+a{
+
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+#previous{
+    font-family: 'Varela Round', sans-serif;
+  color:#e89c9e;
+  font-size: 2em;
+  transform: rotate(90deg);
+  width: 20px;
+  text-align: right;
+  position: fixed;
+  left: 20px;
+  top:20px;
+}
+
+#suite{
+  font-family: 'Varela Round', sans-serif;
+  color:#e89c9e;
+  font-size: 2em;
+  transform: rotate(-90deg);
+  width: 20px;
+  text-align: right;
+  position: fixed;
+  right: 20px;
+  top:20px;
+}
+
+
+
+/*
+@media screen and (max-width:768px) {
+	/* iPad portrait */
+
+/*
+#conteneur{
+	width: 370px;
+	height: 600px;
+	margin: 20px auto;
+	border: 3px solid black;
+
+}
+
+header{
+	width: 370px;
+	height: 110px;
+	border-bottom: 3px solid black;
+}
+
+#logo{
+	width: 75px;
+	height: 75px;
+	margin-top: 15px;
+	margin-left: 15px;
+
+	border: 3px solid black;
+}
+
+ul{
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+
+}
+
+li{
+	display: block;
+	width: 50px;
+	height: 15px; 
+	margin-right: 15px;
+	margin-bottom: 5px;	
+	border: 3px solid black;
+
+}
+section{
+	height: 400px;
+}
+
+article{
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 15px;
+	width: 335px;
+	height: 130px;
+	border: 3px solid black;
+}
+
+aside{
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 15px;
+	width: 335px;
+	height: 280px;
+	border: 3px solid black;	
+}
+
+footer{
+	margin-top: 70px;
+	width: 370px;
+	height: 20px;
+	border-top: 3px solid black;	
+}
+
+
+
+
+
+
+	}
+
+*/

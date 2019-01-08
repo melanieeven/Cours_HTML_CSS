@@ -1,0 +1,129 @@
+section{
+    width: 600px;
+    margin: 50px auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(150px, auto);
+}
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  background-color: white;
+  border:3px solid black;
+}
+
+.two { 
+  grid-column: 2 / 3;
+  grid-row: 1 / 4;
+  background-color: white;
+  padding-top:150px;
+border:3px solid black;
+}
+
+.three {
+  grid-column: 3;
+  grid-row: 1 / 3;
+  background-color: white;
+  padding-top:70px;
+  border:3px solid black;
+}
+
+.four {
+  grid-column: 1;
+  grid-row: 2/4;
+  background-color: white;
+  padding-top:70px;
+  border:3px solid black;
+}
+
+.five {
+  grid-column: 1/3;
+  grid-row: 4;
+  background-color: white;
+  border:3px solid black;
+}
+
+h1{
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  text-align: center;
+  font-size: 2.6em;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  color: black;
+  transition: all ease 0.5s;
+}
+h2{
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  color: black;
+  transition: all ease 0.5s;
+}
+
+
+
+
+
+
+
+.six {
+  grid-column: 3;
+  grid-row: 3/5;
+  background-color: white;
+  padding-top:80px;
+  border:3px solid black;
+}
+
+h6{
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 0.8em;
+  text-align: left;
+  margin-left: 110px;
+  color: darkgrey;
+  font-weight: lighter;
+}
+
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a{
+
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+#previous{
+    font-family: 'Varela Round', sans-serif;
+  color:#e89c9e;
+  font-size: 2em;
+  transform: rotate(90deg);
+  width: 20px;
+  text-align: right;
+  position: fixed;
+  left: 20px;
+  top:20px;
+}
+
+#suite{
+  font-family: 'Varela Round', sans-serif;
+  color:#e89c9e;
+  font-size: 2em;
+  transform: rotate(-90deg);
+  width: 20px;
+  text-align: right;
+  position: fixed;
+  right: 20px;
+  top:20px;
+}
+
+

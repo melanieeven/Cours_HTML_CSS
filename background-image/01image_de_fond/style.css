@@ -1,0 +1,34 @@
+#conteneur{
+	width: 393px;
+	height: 310px;
+	margin: 200px auto;
+	background-image:url(image/rectangle-4.gif);
+}
+
+
+a{
+	font-family: 'Varela Round', sans-serif;
+	color:#EBD2B4;
+	font-size: 2em;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+#suite{
+
+	transform: rotate(-90deg);
+	width: 20px;
+	text-align: right;
+	position: fixed;
+	right: 20px;
+	top:20px;
+}
+
+#previous{
+	transform: rotate(90deg);
+	width: 20px;
+	text-align: right;
+	position: fixed;
+	left: 20px;
+	top:20px;
+}
