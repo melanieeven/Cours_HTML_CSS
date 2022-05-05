@@ -1,1 +1,1 @@
-# Tous les exercices vus en cours en BTS1 et BTS2 Design graphique numérique à Boulogne-Billancourt et à Montreuil
+# Quelques exercices vus en cours de technologie de fabrication en BTS1 et BTS2 (RIP) Design graphique numérique à Boulogne-Billancourt et à Montreuil
